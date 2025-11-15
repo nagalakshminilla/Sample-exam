@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">BrandName</div>
+
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Courses</li>
+      <li>Blog</li>
+      <li>Contact</li>
+    </ul>
+
+    <div class="actions">
+      <button>Login</button>
+      <button class="primary">Sign Up</button>
+    </div>
+  </nav>
+
+
+  <!-- TOP SECTION -->
+  <section class="top">
+    <h2>Top Courses</h2>
+
+    <div class="grid">
+      <div>
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Course Title</h3>
+        <p>Short description of course.</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Course Title</h3>
+        <p>Short description of course.</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Course Title</h3>
+        <p>Short description of course.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MID SECTION -->
+  <section class="mid">
+    <h2>Our Programs</h2>
+
+    <div class="grid">
+      <div>
+        <img src="https://via.placeholder.com/260x160" alt="">
+        <h3>Program Title</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/260x160" alt="">
+        <h3>Program Title</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/260x160" alt="">
+        <h3>Program Title</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/260x160" alt="">
+        <h3>Program Title</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BOTTOM SECTION -->
+  <section class="bottom">
+    <div>
+      <h2>Join Us Today</h2>
+      <p>Start your journey with us and achieve success.</p>
+      <button class="primary">Get Started</button>
+    </div>
+
+    <img src="https://via.placeholder.com/350x250" alt="">
+  </section>
+
+</body>
+</html>
